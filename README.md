@@ -46,7 +46,7 @@ After the computations are done, it visualizes the retrieval results on the traj
 ## 3. Performance
 Details can be found in the paper. 
 ### 3.1 Precision-Recall
-![PR ](./results_preview/pr_on_KAIST03.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">MulRan KAIST03</center> | ![](./results_preview/pr_on_KITTI08.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</center> | ![](./results_preview/pr_on_Oxford_01-11-13-24.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</center>
+![PR ](./results_preview/pr_on_KAIST03.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KAIST03</center> | ![](./results_preview/pr_on_KITTI08.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</center> | ![](./results_preview/pr_on_Oxford_01-11-13-24.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</center>
 ---|---|---
 
 ### 3.2 Visualizations
