@@ -47,7 +47,7 @@ After the computations are done, it visualizes the retrieval results on the traj
 Details can be found in the paper. 
 ### 3.1 Precision-Recall
 
-<img src="./results_preview/pr_on_KAIST03.svg" width=300 /> <br> <div align="center" style="center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">MulRun KAIST03</div> | <img src="./results_preview/pr_on_KITTI08.svg" width=300 /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</div> | <img src="./results_preview/pr_on_Oxford_01-11-13-24.svg" width=300 /><br><div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</div>
+<img src="./results_preview/pr_on_KAIST03.svg" width=300 /> <br> <div align="center" style="center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KAIST03</div> | <img src="./results_preview/pr_on_KITTI08.svg" width=300 /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</div> | <img src="./results_preview/pr_on_Oxford_01-11-13-24.svg" width=300 /><br><div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</div>
 ---|---|---
 
 ### 3.2 Visualizations
@@ -64,31 +64,8 @@ Details can be found in the paper.
 
 #### 3.2.3 Oxford Robotcar Radar
 
-<div style="display:flex;justify-content:center">
-<div>
-<img src="./results_preview/viz_fresco_Oxford.svg" width=300 />
-<br>
-<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</div>
-</div>
-
-<div>
-<img src="./results_preview/viz_scancontext_Oxford.svg" width=300 />
-<br>
-<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</div>
-</div>
-
-<div>
-<img src="./results_preview/viz_lidariris_Oxford.svg" width=300 />
-<br>
-<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</div>
-</div>
-
-<div>
-<img src="./results_preview/viz_lidarorb_Oxford.svg" width=300 />
-<br>
-<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</div>
-</div>
-</div>
+<img src="./results_preview/viz_fresco_Oxford.svg" width=300 /><br><div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</div> | <img src="./results_preview/viz_scancontext_Oxford.svg" width=300 /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</div> | <img src="./results_preview/viz_lidariris_Oxford.svg" width=300 /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</div> | <img src="./results_preview/viz_lidarorb_Oxford.svg" width=300 /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</div>
+---|---|---|---
 
 
 ## 4. Citation
