@@ -46,36 +46,102 @@ After the computations are done, it visualizes the retrieval results on the traj
 ## 3. Performance
 Details can be found in the paper. 
 ### 3.1 Precision-Recall
-![PR ](./results_preview/pr_on_KAIST03.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KAIST03</center> | ![](./results_preview/pr_on_KITTI08.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</center> | ![](./results_preview/pr_on_Oxford_01-11-13-24.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</center>
----|---|---
+
+<div style="display:flex;justify-content:center">
+<div>
+<img src="./results_preview/pr_on_KAIST03.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">MulRun KAIST03</center>
+</div> 
+
+<div>
+<img src="./results_preview/pr_on_KITTI08.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</center> 
+</div>
+
+<div>
+<img src="./results_preview/pr_on_Oxford_01-11-13-24.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</center>
+</div>
+</div>
 
 ### 3.2 Visualizations
 #### 3.2.1 MulRan KAIST 03
 
-![](./results_preview/viz_fresco_KAIST03.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</center> | ![](./results_preview/viz_scancontext_KAIST03.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</center>
----|---
+<div style="display:flex;justify-content:center">
+<div>
+<img src="./results_preview/viz_fresco_KAIST03.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</center>
+</div>
 
-![](./results_preview/viz_lidariris_KAIST03.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</center> | ![](./results_preview/viz_lidarorb_KAIST03.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</center>
----|---
+<div>
+<img src="./results_preview/viz_scancontext_KAIST03.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</center>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidariris_KAIST03.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</center>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidarorb_KAIST03.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</center>
+</div>
+</div>
+
 
 #### 3.2.2 KITTI 08
 
-![](./results_preview/viz_fresco_KITTI08.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</center> | ![](./results_preview/viz_scancontext_KITTI08.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</center>
----|---
+<div style="display:flex;justify-content:center">
+<div>
+<img src="./results_preview/viz_fresco_KITTI08.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</center>
+</div>
 
-![](./results_preview/viz_lidariris_KITTI08.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</center> | ![](./results_preview/viz_lidarorb_KITTI08.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</center>
----|---
+<div>
+<img src="./results_preview/viz_scancontext_KITTI08.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</center>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidariris_KITTI08.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</center>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidarorb_KITTI08.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</center>
+</div>
+</div>
+
 
 #### 3.2.3 Oxford Robotcar Radar
 
-![](./results_preview/viz_fresco_Oxford.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</center> | ![](./results_preview/viz_scancontext_Oxford.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</center>
----|---
+<div style="display:flex;justify-content:center">
+<div>
+<img src="./results_preview/viz_fresco_Oxford.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</center>
+</div>
 
-![](./results_preview/viz_lidariris_Oxford.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</center> | ![](./results_preview/viz_lidarorb_Oxford.svg) <center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</center>
----|---
+<div>
+<img src="./results_preview/viz_scancontext_Oxford.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</center>
+</div>
 
-## 4. Publication
-If this work is useful to your research, please cite our [paper (PDF)](https://arxiv.org/abs/2206.12628): 
+<div>
+<img src="./results_preview/viz_lidariris_Oxford.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</center>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidarorb_Oxford.svg" width="300px" />
+<center style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</center>
+</div>
+</div>
+
+
+## 4. Citation
+If you find this work useful to your research, please cite our [paper (PDF)](https://arxiv.org/abs/2206.12628): 
 ```
 @article{fan2022fresco,
   title={FreSCo: Frequency-Domain Scan Context for LiDAR-based Place Recognition with Translation and Rotation Invariance},
@@ -86,4 +152,6 @@ If this work is useful to your research, please cite our [paper (PDF)](https://a
 ```
 
 ## 5. TO-DOs
-[] Try creating the keys using VALD / NetVLAD;
+- [] Re-implement the main framework in C++; 
+- [] Try creating the keys using VLAD / NetVLAD; 
+- [] Integrate the framework to popular LiDAR-Inertial SLAM projects. 
