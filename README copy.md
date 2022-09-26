@@ -47,60 +47,84 @@ After the computations are done, it visualizes the retrieval results on the traj
 Details can be found in the paper. 
 ### 3.1 Precision-Recall
 
-<style>
-table th:first-of-type {
-    width: 33%;
-}
-table th:nth-of-type(2) {
-    width: 33%;
-}
-table th:nth-of-type(3) {
-    width: 33%;
-}
-</style>
-<div> <img src="./results_preview/pr_on_KAIST03.svg" width="300px" /> <br> <div align="center" style="center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">MulRun KAIST03</div> </div> | <div> <img src="./results_preview/pr_on_KITTI08.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</div> </div> | <div><img src="./results_preview/pr_on_Oxford_01-11-13-24.svg" width="300px" /><br><div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</div></div>
----|---|---
+<div style="display:flex;justify-content:center">
+<div>
+<img src="./results_preview/pr_on_KAIST03.svg" width="300px" />
+<br>
+<div align="center" style="center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">MulRun KAIST03</div>
+</div> 
+
+<div>
+<img src="./results_preview/pr_on_KITTI08.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</div> 
+</div>
+
+<div>
+<img src="./results_preview/pr_on_Oxford_01-11-13-24.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</div>
+</div>
+</div>
 
 ### 3.2 Visualizations
 #### 3.2.1 MulRan KAIST 03
 
-<style>
-table th:first-of-type {
-    width: 25%;
-}
-table th:nth-of-type(2) {
-    width: 25%;
-}
-table th:nth-of-type(3) {
-    width: 25%;
-}
-table th:nth-of-type(4) {
-    width: 25%;
-}
-</style>
+<div style="display:flex;justify-content:center">
+<div>
+<img src="./results_preview/viz_fresco_KAIST03.svg" width="300px" />
+<br>
+<div align="center" style="justify-content:center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</div>
+</div>
 
-<div> <img src="./results_preview/viz_fresco_KAIST03.svg" width="300px" /> <br> <div align="center" style="justify-content:center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</div> </div> | <div> <img src="./results_preview/viz_scancontext_KAIST03.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</div> </div> | <div> <img src="./results_preview/viz_lidariris_KAIST03.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</div> </div> | <div> <img src="./results_preview/viz_lidarorb_KAIST03.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</div></div>
----|---|---|---
+<div>
+<img src="./results_preview/viz_scancontext_KAIST03.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</div>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidariris_KAIST03.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</div>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidarorb_KAIST03.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</div>
+</div>
+</div>
 
 
 #### 3.2.2 KITTI 08
 
-<style>
-table th:first-of-type {
-    width: 25%;
-}
-table th:nth-of-type(2) {
-    width: 25%;
-}
-table th:nth-of-type(3) {
-    width: 25%;
-}
-table th:nth-of-type(4) {
-    width: 25%;
-}
-</style>
-<div> <img src="./results_preview/viz_fresco_KITTI08.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</div> </div> | <div> <img src="./results_preview/viz_scancontext_KITTI08.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</div> </div> | <div> <img src="./results_preview/viz_lidariris_KITTI08.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</div> </div> | <div> <img src="./results_preview/viz_lidarorb_KITTI08.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</div> </div>
----|---|---|---
+<div style="display:flex;justify-content:center">
+<div>
+<img src="./results_preview/viz_fresco_KITTI08.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:700">FreSCo</div>
+</div>
+
+<div>
+<img src="./results_preview/viz_scancontext_KITTI08.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Scan Context</div>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidariris_KITTI08.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR Iris</div>
+</div>
+
+<div>
+<img src="./results_preview/viz_lidarorb_KITTI08.svg" width="300px" />
+<br>
+<div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">LiDAR ORB</div>
+</div>
+</div>
+
 
 #### 3.2.3 Oxford Robotcar Radar
 
