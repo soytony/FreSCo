@@ -80,6 +80,6 @@ If you find this work useful to your research, please cite our [paper (PDF)](htt
 ```
 
 ## 5. TO-DOs
-- [] Re-implement the main framework in C++; 
-- [] Try creating the keys using VLAD / NetVLAD; 
-- [] Integrate the framework to popular LiDAR-Inertial SLAM projects. 
+- [ ] Re-implement the main framework in C++; 
+- [ ] Try creating the keys using VLAD / NetVLAD; 
+- [ ] Integrate the framework to popular LiDAR-Inertial SLAM projects. 
