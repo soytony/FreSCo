@@ -58,7 +58,7 @@ table th:nth-of-type(3) {
     width: 33%;
 }
 </style>
-<div> <img src="./results_preview/pr_on_KAIST03.svg" width="300px" /> <br> <div align="center" style="center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">MulRun KAIST03</div> </div> | <div> <img src="./results_preview/pr_on_KITTI08.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</div> </div> | <div><img src="./results_preview/pr_on_Oxford_01-11-13-24.svg" width="300px" /><br><div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</div></div>
+<img src="./results_preview/pr_on_KAIST03.svg" width="300px" /> <br> <div align="center" style="center;font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">MulRun KAIST03</div> | <img src="./results_preview/pr_on_KITTI08.svg" width="300px" /> <br> <div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">KITTI 08</div> | <img src="./results_preview/pr_on_Oxford_01-11-13-24.svg" width="300px" /><br><div align="center" style="font-size:14px;color:#808080;font-family:'Helvetica Neue';font-weight:400">Oxford</div>
 ---|---|---
 
 ### 3.2 Visualizations
